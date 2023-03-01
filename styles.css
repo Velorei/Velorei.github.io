@@ -1,0 +1,55 @@
+body {
+    position: relative;
+    width: 642px;
+    padding: 17px;
+    margin: auto;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 14px;
+    font-family: 'Crimson Pro', serif;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: double;
+}
+
+h1 {
+    font-family: "Crimson Pro";
+    text-align: center;
+}
+
+h2 {
+    font-family: "Crimson Pro";
+    text-align: center;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.skills_list {
+    text-align: justify;
+    column-count: 5;
+    column-width: auto;
+
+}
+
+.skills_list_item li {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+ul {
+    padding: 0;
+    margin-left: 20px;
+}
